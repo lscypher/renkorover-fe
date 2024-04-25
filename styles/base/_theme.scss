@@ -1,0 +1,201 @@
+/* Primary Colors */
+$primary-color-10: var(--primary-color-10);
+$primary-color-20: var(--primary-color-20);
+$primary-color-30: var(--primary-color-30);
+$primary-color-40: var(--primary-color-40);
+$primary-color-50: var(--primary-color-50);
+$primary-color-60: var(--primary-color-60);
+$primary-color-70: var(--primary-color-70);
+$primary-color-80: var(--primary-color-80);
+$primary-color-90: var(--primary-color-90);
+$primary-color-100: var(--primary-color-100);
+
+/* Secondary Colors */
+$secondary-color-10: var(--secondary-color-10);
+$secondary-color-20: var(--secondary-color-20);
+$secondary-color-30: var(--secondary-color-30);
+$secondary-color-40: var(--secondary-color-40);
+$secondary-color-50: var(--secondary-color-50);
+$secondary-color-60: var(--secondary-color-60);
+$secondary-color-70: var(--secondary-color-70);
+$secondary-color-80: var(--secondary-color-80);
+$secondary-color-90: var(--secondary-color-90);
+$secondary-color-100: var(--secondary-color-10);
+
+/* Accent V1 Colors */
+$accent-color-v1-10: var(--accent-color-v1-10);
+$accent-color-v1-20: var(--accent-color-v1-20);
+$accent-color-v1-30: var(--accent-color-v1-30);
+$accent-color-v1-40: var(--accent-color-v1-40);
+$accent-color-v1-50: var(--accent-color-v1-50);
+$accent-color-v1-60: var(--accent-color-v1-60);
+$accent-color-v1-70: var(--accent-color-v1-70);
+$accent-color-v1-80: var(--accent-color-v1-80);
+$accent-color-v1-90: var(--accent-color-v1-90);
+$accent-color-v1-100: var(--accent-color-v1-100);
+
+/* Accent V2 Colors */
+$accent-color-v2-10: var(--accent-color-v2-10);
+$accent-color-v2-20: var(--accent-color-v2-20);
+$accent-color-v2-30: var(--accent-color-v2-30);
+$accent-color-v2-40: var(--accent-color-v2-40);
+$accent-color-v2-50: var(--accent-color-v2-50);
+$accent-color-v2-60: var(--accent-color-v2-60);
+$accent-color-v2-70: var(--accent-color-v2-70);
+$accent-color-v2-80: var(--accent-color-v2-80);
+$accent-color-v2-90: var(--accent-color-v2-90);
+$accent-color-v2-100: var(--accent-color-v2-100);
+
+/* Accent V3 Colors */
+$accent-color-v3-10: var(--accent-color-v3-10);
+$accent-color-v3-20: var(--accent-color-v3-20);
+$accent-color-v3-30: var(--accent-color-v3-30);
+$accent-color-v3-40: var(--accent-color-v3-40);
+$accent-color-v3-50: var(--accent-color-v3-50);
+$accent-color-v3-60: var(--accent-color-v3-60);
+$accent-color-v3-70: var(--accent-color-v3-70);
+$accent-color-v3-80: var(--accent-color-v3-80);
+$accent-color-v3-90: var(--accent-color-v3-90);
+$accent-color-v3-100: var(--accent-color-v3-100);
+
+/* Accent V4 Colors */
+$accent-color-v4-10: var(--accent-color-v4-10);
+$accent-color-v4-20: var(--accent-color-v4-20);
+$accent-color-v4-30: var(--accent-color-v4-30);
+$accent-color-v4-40: var(--accent-color-v4-40);
+$accent-color-v4-50: var(--accent-color-v4-50);
+$accent-color-v4-60: var(--accent-color-v4-60);
+$accent-color-v4-70: var(--accent-color-v4-70);
+$accent-color-v4-80: var(--accent-color-v4-80);
+$accent-color-v4-90: var(--accent-color-v4-90);
+$accent-color-v4-100: var(--accent-color-v4-100);
+
+/* Accent V5 Colors */
+$accent-color-v5-10: var(--accent-color-v5-10);
+$accent-color-v5-20: var(--accent-color-v5-20);
+$accent-color-v5-30: var(--accent-color-v5-30);
+$accent-color-v5-40: var(--accent-color-v5-40);
+$accent-color-v5-50: var(--accent-color-v5-50);
+$accent-color-v5-60: var(--accent-color-v5-60);
+$accent-color-v5-70: var(--accent-color-v5-70);
+$accent-color-v5-80: var(--accent-color-v5-80);
+$accent-color-v5-90: var(--accent-color-v5-90);
+$accent-color-v5-100: var(--accent-color-v5-100);
+
+/* Accent V6 Colors */
+$accent-color-v6-10: var(--accent-color-v6-10);
+$accent-color-v6-20: var(--accent-color-v6-20);
+$accent-color-v6-30: var(--accent-color-v6-30);
+$accent-color-v6-40: var(--accent-color-v6-40);
+$accent-color-v6-50: var(--accent-color-v6-50);
+$accent-color-v6-60: var(--accent-color-v6-60);
+$accent-color-v6-70: var(--accent-color-v6-70);
+$accent-color-v6-80: var(--accent-color-v6-80);
+$accent-color-v6-90: var(--accent-color-v6-90);
+$accent-color-v6-100: var(--accent-color-v6-100);
+
+/* Neutral Colors */
+$neutral-scale-14: var(--neutral-scale-14);
+$neutral-scale-13: var(--neutral-scale-13);
+$neutral-scale-12: var(--neutral-scale-12);
+$neutral-scale-11: var(--neutral-scale-11);
+$neutral-scale-10: var(--neutral-scale-10);
+$neutral-scale-9: var(--neutral-scale-9);
+$neutral-scale-8: var(--neutral-scale-8);
+$neutral-scale-7: var(--neutral-scale-7);
+$neutral-scale-6: var(--neutral-scale-6);
+$neutral-scale-5: var(--neutral-scale-5);
+$neutral-scale-4: var(--neutral-scale-4);
+$neutral-scale-3: var(--neutral-scale-3);
+$neutral-scale-2: var(--neutral-scale-2);
+$neutral-scale-1: var(--neutral-scale-1);
+$neutral-scale-0: var(--neutral-scale-0);
+
+/* Main Colors */
+// These colors would be aliased to the respective v60 variants from their
+// palettes. This aliasing is done through JS
+$primary-color: var(--primary-color);
+$secondary-color: var(--secondary-color);
+$accent-color-v1: var(--accent-color-v1);
+$accent-color-v2: var(--accent-color-v2);
+$accent-color-v3: var(--accent-color-v3);
+$success-color: var(--success-color);
+$danger-color: var(--danger-color);
+$warning-color: var(--warning-color);
+$link-color: var(--link-color);
+
+// Font Colors
+$default-font-color: var(--default-font-color);
+$dark-font-color: var(--dark-font-color);
+$light-font-color: var(--light-font-color);
+$disabled-font-color: var(--disabled-font-color);
+$hint-font-color: var(--hint-font-color);
+
+// Background Colors
+$body-background-color: var(--body-background-color);
+$light-background-shade-1-color: var(--light-background-shade-1-color);
+$light-background-shade-2-color: var(--light-background-shade-2-color);
+$light-background-shade-3-color: var(--light-background-shade-3-color);
+$disabled-background-color: var(--disabled-background-color);
+$background-cover-color: var(--background-cover-color);
+$disabled-foreground-color: var(--disabled-foreground-color);
+$footer-background-color: var(--footer-background-color);
+
+// Other Colors
+$default-border-color: var(--default-border-color);
+$shadow-color: var(--shadow-color);
+$form-field-color: var(--form-field-color);
+
+// Fonts Palette
+
+/* Family */
+$font-family: var(--font-family);
+
+/* Size */
+$title-font-1: var(--title-font-1);
+$title-font-2: var(--title-font-2);
+$title-font-3: var(--title-font-3);
+$h1-size: var(--h1-size);
+$h2-size: var(--h2-size);
+$h3-size: var(--h3-size);
+$h4-size: var(--h4-size);
+$h5-size: var(--h5-size);
+$h6-size: var(--h6-size);
+$body-font-size: var(--body-font-size);
+$overline-font-size: var(--overline-font-size);
+$overline-small-font-size: var(--overline-small-font-size);
+$spare-font-size: var(--spare-font-size);
+
+/* Weight */
+$light-font-weight: var(--light-font-weight);
+$normal-font-weight: var(--normal-font-weight);
+$bold-font-weight: var(--bold-font-weight);
+$bolder-font-weight: var(--bolder-font-weight);
+
+/* Paragraph */
+$paragraph-size-1: var(--paragraph-size-1);
+$paragraph-size-2: var(--paragraph-size-2);
+$paragraph-size-3: var(--paragraph-size-3);
+$paragraph-size-4: var(--paragraph-size-4);
+
+/* Paragraph Line Height */
+$paragraph-line-height-1: var(--paragraph-line-height-1);
+$paragraph-line-height-2: var(--paragraph-line-height-2);
+$paragraph-line-height-3: var(--paragraph-line-height-3);
+$paragraph-line-height-4: var(--paragraph-line-height-4);
+
+/* Spacing */
+$spacing-xxs: var(--spacing-xxs);
+$spacing-xs: var(--spacing-xs);
+$spacing-s: var(--spacing-s);
+$spacing-m: var(--spacing-m);
+$spacing-l: var(--spacing-l);
+$spacing-xl: var(--spacing-xl);
+$spacing-xxl: var(--spacing-xxl);
+$spacing-xxl-2: var(--spacing-xxl-2);
+
+/* Others */
+$border-radius: var(--border-radius);
+
+/* Aliases */
+$border-color: $default-border-color;
