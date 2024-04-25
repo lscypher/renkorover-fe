@@ -9,10 +9,7 @@ html {
     }
 }
 
-html,
-body,
-#root,
-.react-root {
+html {
     height: 100%;
 }
 
@@ -34,6 +31,7 @@ body {
     font-weight: $normal-font-weight;
     letter-spacing: 0.01rem;
     line-height: 1.4;
+    margin: unset;
 }
 
 p {
@@ -64,4 +62,8 @@ button {
         outline: none;
         box-shadow: none;
     }
+}
+
+.section {
+    height: 100vh;
 }
