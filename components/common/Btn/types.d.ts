@@ -1,21 +1,27 @@
-const BtnTypes = ['default', 'primary', 'dashed', 'link', 'text'] as const;
-type BtnType = (typeof BtnTypes)[number];
+export type BtnShape = 'default' | 'circle' | 'round';
 
-const BtnShapes = ['default', 'circle', 'round'] as const;
-export type BtnShape = (typeof BtnShapes)[number];
+export type BtnHTMLType = 'submit' | 'button' | 'reset';
 
-const BtnHTMLTypes = ['submit', 'button', 'reset'] as const;
-export type BtnHTMLType = (typeof BtnHTMLTypes)[number];
+export type BtnSize = 'small' | 'medium' | 'large';
+
+export type BtnColorTypes =
+  | 'primary'
+  | 'secondary'
+  | 'success'
+  | 'error'
+  | 'info'
+  | 'warning';
 
 export interface BaseBtnProps {
-    type?: BtnType;
-    icon?: React.ReactNode;
-    component?: React.ElementType; 
-    shape?: BtnShape,
-    disabled?: boolean,
-    className?: string,
-    children?: React.ReactNode,
-    danger?: boolean,
+  icon?: React.ReactNode;
+  size?: BtnSize;
+  component?: React.ElementType;
+  color?: BtnColorTypes;
+  shape?: BtnShape;
+  disabled?: boolean;
+  className?: string;
+  children?: React.ReactNode;
+  danger?: boolean;
 }
 
 type MergedHTMLAttributes = Omit<

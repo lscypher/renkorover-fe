@@ -2,27 +2,38 @@ $btn-default-background-hover: rgba(1, 1, 1, 0.1);
 $btn-default-background-active: rgba(1, 1, 1, 0.2);
 
 .btn {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    flex: 0 0 auto;
-    cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 auto;
+  cursor: pointer;
 
-    &:hover {
-        background: $btn-default-background-hover;
-    }
+  &.disabled {
+    pointer-events: none;
+    opacity: 0.7;
+    filter: grayscale(0.5);
+  }
+}
 
-    &:active {
-        background: $btn-default-background-active;
-    }
+.primary {
+  background-color: #fcfcfc;
+  color: #2e3539;
+}
 
-    &.disabled {
-        pointer-events: none;
-        opacity: 0.7;
-        filter: grayscale(0.5);
+.secondary {
+  background-color: #000000;
+  color: #ffffff;
+}
 
-        &.hasTooltip {
-            pointer-events: unset;
-        }
-    }
+.success {
+  background-color: $success-color;
+  color: white;
+}
+
+.small {
+  padding: 1rem 2rem;
+}
+
+.round {
+  border-radius: 0.8rem;
 }
