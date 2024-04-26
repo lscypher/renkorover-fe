@@ -1,0 +1,44 @@
+.container {
+  @include flex-row;
+  @include align-c;
+
+  padding: 3rem;
+  background-color: #f9f9f9;
+  background-image: linear-gradient(rgba(46, 53, 57, 0.05) 1px, transparent 1px),
+    linear-gradient(
+      to right,
+      rgba(46, 53, 57, 0.05) 1px,
+      rgba(255, 255, 255, 0.05) 1px
+    );
+  background-size: 7rem 8rem;
+}
+
+.left {
+  position: relative;
+  width: 40%;
+  height: 100%;
+}
+
+.right {
+  @include flex-col;
+
+  justify-content: space-evenly;
+  width: 60%;
+  height: 70%;
+}
+
+.rightArticle {
+  @include flex-col;
+
+  width: 100%;
+}
+
+.rightHeading {
+  width: 60%;
+  font-size: 4rem;
+}
+
+.rightBtn {
+  width: 20%;
+  height: 9%;
+}

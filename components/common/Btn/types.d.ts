@@ -6,6 +6,7 @@ export type BtnSize = 'small' | 'medium' | 'large';
 
 export type BtnColorTypes =
   | 'primary'
+  | 'secondary'
   | 'success'
   | 'error'
   | 'info'

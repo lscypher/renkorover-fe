@@ -33,7 +33,7 @@ const HomeSection = () => {
       </Container>
       <Container component='footer' className={styles.footer}>
         <Btn shape='round' onClick={handleStartClick}>
-          <Txt size='m' bold color='dark'>
+          <Txt size='l' bold color='dark'>
             {BTN_TXT}
           </Txt>
         </Btn>
