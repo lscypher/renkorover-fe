@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
 
 .txt {
-  font-family: Arial, sans-serif;
   line-height: 1.6;
   margin: unset;
 
@@ -74,4 +73,8 @@
 
 .warning {
   color: #ffc107;
+}
+
+.dark {
+  color: $dark-font-color;
 }

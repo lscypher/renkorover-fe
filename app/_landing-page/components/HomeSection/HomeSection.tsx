@@ -21,7 +21,7 @@ const HomeSection = () => {
       className={classNames('section', styles.container)}
     >
       <Container component='article' className={styles.article}>
-        <Txt component='h1' className={styles.heading}>
+        <Txt component='h1' bold className={styles.heading}>
           {HEADING}
           <Txt cursive className={styles.cursiveFont}>
             Autopilot
@@ -30,7 +30,11 @@ const HomeSection = () => {
         <Txt size='xl' className={styles.subHeading}>
           {SUBHEADING}
         </Txt>
-        <Btn onClick={handleStartClick}>{BTN_TXT}</Btn>
+        <Btn shape='round' onClick={handleStartClick}>
+          <Txt size='m' bold color='dark'>
+            {BTN_TXT}
+          </Txt>
+        </Btn>
       </Container>
     </Container>
   );

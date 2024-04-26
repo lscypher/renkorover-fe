@@ -32,7 +32,11 @@ const Txt: FunctionComponent<Props> = (props) => {
     className,
   );
 
-  return <Component className={classes}>{children}</Component>;
+  return (
+    <Component className={classes} {...rest}>
+      {children}
+    </Component>
+  );
 };
 
 Txt.displayName = 'Txt';
