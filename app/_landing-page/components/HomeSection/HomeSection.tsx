@@ -27,9 +27,11 @@ const HomeSection = () => {
             Autopilot
           </Txt>
         </Txt>
-        <Txt size='xl' className={styles.subHeading}>
+        <Txt size='l' className={styles.subHeading}>
           {SUBHEADING}
         </Txt>
+      </Container>
+      <Container component='footer' className={styles.footer}>
         <Btn shape='round' onClick={handleStartClick}>
           <Txt size='m' bold color='dark'>
             {BTN_TXT}

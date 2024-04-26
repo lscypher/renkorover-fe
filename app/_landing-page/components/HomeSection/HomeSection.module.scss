@@ -1,8 +1,11 @@
 $background-image-url: '/landing_page/homeBackground.svg';
+$subheading-color: #efdbfc;
+$cursive-color: #fed449;
 
 .container {
-  @include flex-row;
+  @include flex-col;
 
+  flex-direction: column-reverse;
   background: url($background-image-url);
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,11 +16,10 @@ $background-image-url: '/landing_page/homeBackground.svg';
   @include flex-col;
   @include align-c;
 
-  justify-content: space-evenly;
   width: 100%;
   position: absolute;
   bottom: 0;
-  height: 40%;
+  height: 30%;
 }
 
 .heading {
@@ -27,9 +29,14 @@ $background-image-url: '/landing_page/homeBackground.svg';
 .cursiveFont {
   font-size: 6rem;
   margin-left: 2rem;
-  color: #fed449;
+  color: $cursive-color;
 }
 
 .subHeading {
-  color: #efdbfc;
+  color: $subheading-color;
+}
+
+.footer {
+  align-self: center;
+  margin-bottom: 5rem;
 }
