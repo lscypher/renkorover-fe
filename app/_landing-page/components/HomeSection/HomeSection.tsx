@@ -1,19 +1,39 @@
-import Container from "@/components/layout/Container"
+'use client';
+import { memo } from 'react';
+import classNames from 'classnames';
 
-import styles from './HomeSection.module.scss'
-type Props = {}
+import Btn from '@/components/common/Btn';
+import Container from '@/components/layout/Container';
+import Txt from '@/components/common/Txt';
+import { HEADING, SUBHEADING, BTN_TXT } from './constant';
 
-const HomeSection = (props: Props) => {
+import styles from './HomeSection.module.scss';
+import { useCallback } from 'react';
+
+const HomeSection = () => {
+  const handleStartClick = useCallback(() => {
+    console.log('Hello World');
+  }, []);
+
   return (
-    <Container className='section'>
-      <Container className={styles.left}>
-        Hello
-      </Container>
-      <Container className={styles.right}>
-        World
+    <Container
+      component='section'
+      className={classNames('section', styles.container)}
+    >
+      <Container component='article' className={styles.article}>
+        <Txt component='h1' className={styles.heading}>
+          {HEADING}
+          <Txt cursive className={styles.cursiveFont}>
+            Autopilot
+          </Txt>
+        </Txt>
+        <Txt size='xl' className={styles.subHeading}>
+          {SUBHEADING}
+        </Txt>
+        <Btn onClick={handleStartClick}>{BTN_TXT}</Btn>
       </Container>
     </Container>
-  )
-}
+  );
+};
 
-export default HomeSection
+export default memo(HomeSection);

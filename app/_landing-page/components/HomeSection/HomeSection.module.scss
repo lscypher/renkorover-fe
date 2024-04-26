@@ -1,17 +1,35 @@
+$background-image-url: '/landing_page/homeBackground.svg';
+
 .container {
-    @include flex-row;
+  @include flex-row;
 
-    height: 100vh;
+  background: url($background-image-url);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
 }
 
-.left {
-    @include flex-col;
+.article {
+  @include flex-col;
+  @include align-c;
 
-    flex: 1;
+  justify-content: space-evenly;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 40%;
 }
 
-.right {
-    @include flex-col;
+.heading {
+  font-size: 5rem;
+}
 
-    flex: 1;
+.cursiveFont {
+  font-size: 6rem;
+  margin-left: 2rem;
+  color: #fed449;
+}
+
+.subHeading {
+  color: #efdbfc;
 }
