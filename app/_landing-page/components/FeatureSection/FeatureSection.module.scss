@@ -1,0 +1,40 @@
+$cursive-font-color: #5f44ec;
+$subheading-color: #6c747d;
+
+.container {
+  @include flex-col;
+
+  padding: 3rem;
+}
+
+.top {
+  @include flex-col;
+  @include align-c;
+
+  justify-content: center;
+
+  width: 50%;
+  margin: auto;
+  height: 30%;
+}
+
+.topHeading {
+  font-size: 4rem;
+  text-align: center;
+  white-space: pre-line;
+  line-height: 4rem;
+}
+
+.topCursive {
+  color: $cursive-font-color;
+  font-size: 5rem;
+}
+
+.topSubHeading {
+  text-align: center;
+  color: $subheading-color;
+}
+
+.bottom {
+  height: 70%;
+}
