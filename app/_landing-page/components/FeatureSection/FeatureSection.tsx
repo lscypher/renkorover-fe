@@ -15,14 +15,14 @@ const FeatureSection = () => {
       className={classNames('section', styles.container)}
     >
       <Container className={styles.top}>
-        <Txt color='dark' bold className={styles.topHeading}>
+        <Txt bold className={styles.topHeading}>
           {TOP_HEADING}
-          <Txt color='dark' cursive className={styles.topCursive}>
+          <Txt cursive className={styles.topCursive}>
             AI-Powered
           </Txt>
           Workspace
         </Txt>
-        <Txt color='dark' size='l' className={styles.topSubHeading}>
+        <Txt size='l' className={styles.topSubHeading}>
           {TOP_SUB_HEADING}
         </Txt>
       </Container>
@@ -34,10 +34,10 @@ const FeatureSection = () => {
                 <Container className={styles.featureIcon}>
                   <Image src={icon} alt={`${index}`} height={50} />
                 </Container>
-                <Txt color='dark' size='l' className={styles.featureHeading}>
+                <Txt size='l' className={styles.featureHeading}>
                   {heading}
                 </Txt>
-                <Txt color='dark' size='m' className={styles.featureContent}>
+                <Txt size='m' className={styles.featureContent}>
                   {content}
                 </Txt>
               </Container>

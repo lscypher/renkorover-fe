@@ -16,6 +16,7 @@
 
   &.cursive {
     font-family: 'Caveat', cursive;
+    font-optical-sizing: auto;
   }
 }
 
@@ -56,11 +57,11 @@
 }
 
 .primary {
-  color: white;
+  color: $dark-font-color;
 }
 
 .secondary {
-  color: #6c757d;
+  color: $light-font-color;
 }
 
 .danger {
@@ -73,8 +74,4 @@
 
 .warning {
   color: #ffc107;
-}
-
-.dark {
-  color: $dark-font-color;
 }

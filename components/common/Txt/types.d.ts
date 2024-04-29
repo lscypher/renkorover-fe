@@ -16,8 +16,7 @@ export type ColorVariant =
   | 'secondary'
   | 'danger'
   | 'success'
-  | 'warning'
-  | 'dark';
+  | 'warning';
 
 export interface TxtProps {
   size?: SizeVariant;

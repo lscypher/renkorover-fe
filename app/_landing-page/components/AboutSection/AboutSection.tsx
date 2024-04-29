@@ -25,12 +25,10 @@ const AboutSection = (props: Props) => {
       </Container>
       <Container className={styles.right}>
         <Container className={styles.rightArticle}>
-          <Txt color='dark' cursive className={styles.rightHeading}>
+          <Txt cursive className={styles.rightHeading}>
             {RIGHT_SECTION_HEADING}
           </Txt>
-          <Txt color='dark' size='l'>
-            {RIGHT_SECTION_CONTENT}
-          </Txt>
+          <Txt size='l'>{RIGHT_SECTION_CONTENT}</Txt>
         </Container>
         <Btn shape='round' color='secondary' className={styles.rightBtn}>
           See How{' '}

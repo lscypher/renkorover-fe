@@ -1,0 +1,29 @@
+.container {
+  @include flex-row;
+  @include align-c;
+
+  height: 30vh;
+  padding: 3rem;
+  background-color: rgba(255, 251, 238, 1);
+}
+
+.left {
+  @include align-c;
+
+  width: 70%;
+  justify-content: space-evenly;
+}
+
+.partnerImage {
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  filter: grayscale(100%);
+}
+
+.right {
+  @include flex-col;
+  @include align-c;
+
+  justify-content: center;
+  width: 30%;
+}
