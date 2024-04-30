@@ -21,7 +21,7 @@ const HomeSection = () => {
       className={classNames('section', styles.container)}
     >
       <Container component='article' className={styles.article}>
-        <Txt component='h1' bold className={styles.heading}>
+        <Txt component='h1' bold className={styles.heading} color='secondary'>
           {HEADING}
           <Txt cursive className={styles.cursiveFont}>
             Autopilot
@@ -33,7 +33,7 @@ const HomeSection = () => {
       </Container>
       <Container component='footer' className={styles.footer}>
         <Btn shape='round' onClick={handleStartClick}>
-          <Txt size='l' bold color='dark'>
+          <Txt size='l' bold>
             {BTN_TXT}
           </Txt>
         </Btn>
